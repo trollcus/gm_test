@@ -46,5 +46,5 @@ PrevisitTC.addRelation('project', {
       return source.project_id || null
     },
   },
-  projection: { email: true },
+  projection: { project_id: true },
 })
